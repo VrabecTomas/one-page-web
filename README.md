@@ -1,16 +1,23 @@
-# Úkol Cloudflare
-# 🌐 Co je Cloudflare?
+# 🌐 Cloudflare Infrastructure Showcase & Simulator
+Profesionálně navržená, plně responzivní webová aplikace vytvořená jako školní projekt. Stránka slouží jako edukativní prezentace globální sítě **Cloudflare**, její architektury a klíčových služeb, doplněná o interaktivní síťový simulátor v JavaScriptu.
 
-Moderní, responzivní jednostránkový web vytvořený jako školní projekt. Stránka stručně a jasně vysvětluje podstatu, účel a klíčové technologie platformy Cloudflare.
+---
 
-## 🚀 Hlavní přednosti projektu
-* **Stručné & výstižné:** Žádná zbytečná omáčka, texty přesně plní zadání úkolu.
-* **Moderní Dark Mode:** Čistý vizuální styl s využitím brandové Cloudflare oranžové.
-* **Plná responzivita:** Web se správně zobrazuje na mobilech, tabletech i desktopech.
-* **Clean Code:** Sémantické HTML5 a moderní CSS3 (Grid, Flexbox, CSS proměnné).
+## 🚀 Technické standardy projektu
+
+* **Sémantické HTML5:** Kód využívá moderní sémantické tagy (`<main>`, `<section>`, `<article>`) pro maximální přístupnost (Accessibility) a správnou SEO strukturu.
+* **Pokročilá CSS Architektura:** Designový systém je postaven na nativních CSS proměnných (`:root`), moderním **CSS Grid** layoutu a plynulých mikro-interakcích s cubic-bezier přechody.
+* **Vanilla JavaScript (Asynchronní UI):** Kód neobsahuje žádné externí knihovny ani frameworky (jako jQuery). Využívá čistý moderní JavaScript pro řízení animací a logiku widgetu.
+
+## ⚡ Implementované JS & CSS Funkce
+
+1. **Intersection Observer API (Scroll Animace):** JavaScript dynamicky sleduje pozici uživatele na stránce. Jakmile karta vstoupí do zorného pole, plynule se vynoří a rozsvítí pomocí CSS transformací.
+2. **Anycast Network Simulator:** Interaktivní widget, který po kliknutí simuluje asynchronní požadavek na nejbližší edge server Cloudflare a generuje reálnou nízkou odezvu (ping) v milisekundách.
 
 ## 📁 Struktura repozitáře
+
 ```text
-├── index.html   # Obsahová a sémantická struktura webu
-├── style.css    # Kompletní design a vizuální styl
-└── README.md    # Dokumentace projektu (tento soubor)
+├── index.html   # Sémantická struktura a textový obsah aplikace
+├── style.css    # Designový systém, prémiový Dark Mode a animace
+├── script.js    # Logika pro scroll animace a síťový simulátor
+└── README.md    # Technická dokumentace (tento soubor)
