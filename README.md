@@ -1,5 +1,5 @@
 # Úkol Cloudflare
-# Co je Cloudflare?
+# 🌐 Co je Cloudflare?
 
 Moderní, responzivní jednostránkový web vytvořený jako školní projekt. Stránka stručně a jasně vysvětluje podstatu, účel a klíčové technologie platformy Cloudflare.
 
